@@ -1,0 +1,15 @@
+.main-card {
+    display: inline-block;
+    background-color: lightcoral;
+    padding: 3%;
+    border: 3px solid coral;
+    margin: 2% 1%;
+    border-radius: 5px;
+    box-shadow: grey 4px 4px 8px 0px;
+    text-align: center;
+}
+
+.main-card:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
