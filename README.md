@@ -1,3 +1,7 @@
+# Concept
+
+A simple ReactJS page that loads cards with different ids and lets the user filter through a search box. Made for the **Complete Web Developer in 2022: Zero to Mastery** course by Andrei Neagoie.
+
 # Credits
 
 - [orange long fur cat on black textile by](https://unsplash.com/photos/2rUUGwMyXX0) by [Zhang Kaiyv](https://unsplash.com/@zhangkaiyv)
