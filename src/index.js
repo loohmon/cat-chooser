@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import CatList from './CatList';
-import { cats } from './cats.js';
+import App from './App.js';
 
 ReactDOM.render(
-    <CatList cats={cats}/>,
+    <App />,
   document.getElementById('root')
 );
