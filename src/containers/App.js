@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import CatList from './CatList';
-import { cats } from './cats';
-import SearchBox from './SearchBox';
+import CatList from '../components/CatList';
+import { cats } from '../components/cats';
+import SearchBox from '../components/SearchBox';
 import './App.css';
-import Scroll from './Scroll';
+import Scroll from '../components/Scroll';
 
 class App extends Component {
     constructor() {
