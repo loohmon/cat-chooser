@@ -3,14 +3,19 @@ import CatList from './CatList';
 import { cats } from './cats';
 import SearchBox from './SearchBox';
 import './App.css';
+import Scroll from './Scroll';
 
 class App extends Component {
     constructor() {
         super()
         this.state = {
-            cats: cats,
+            cats: [],
             searchfield: '',
         }
+}
+
+componentDidMount() {
+    this.setState({ cats: cats })
 }
 
 onSearchChange = (e) => {
@@ -26,7 +31,9 @@ onSearchChange = (e) => {
             <>
                 <h1>Cat Chooser</h1>
                 <SearchBox searchChange={this.onSearchChange}/>
+                <Scroll>
                 <CatList cats={filteredCats}/>
+                </Scroll>
             </>
         );
     }
