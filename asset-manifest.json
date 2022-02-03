@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cat-chooser/static/css/main.e574258a.css",
+    "main.js": "/cat-chooser/static/js/main.8e4a0a44.js",
+    "index.html": "/cat-chooser/index.html",
+    "main.e574258a.css.map": "/cat-chooser/static/css/main.e574258a.css.map",
+    "main.8e4a0a44.js.map": "/cat-chooser/static/js/main.8e4a0a44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e574258a.css",
+    "static/js/main.8e4a0a44.js"
+  ]
+}
